@@ -1,0 +1,41 @@
+body{
+    background: red;
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 80vh;
+    background: whitesmoke;
+    
+
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+}
+table th{
+    color: black;
+    padding: 10px; 
+}
+table td{
+    font-size: 1em;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.btn{
+    background: black;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 30px;
+}
+
+.btn:hover{
+    background:skyblue;
+    color: black
+}
